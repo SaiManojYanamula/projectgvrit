@@ -1,0 +1,331 @@
+/* @import url('http://example.com/example_style.css'); */
+
+/***********************************************/
+/* CSS @imports must be at the top of the file */
+/* Add them above this section                 */
+/***********************************************/
+
+/*****************************************/
+/* Start your style declarations here    */
+/*****************************************/
+.below-line {
+  text-align: left !important;
+    width: 76%;
+    margin: 30px auto 0;
+    padding: 0px 20px;
+}
+
+.form-section .inputs-list input[type="checkbox"]:checked + span:after {
+       left: 0px !important;
+}
+.form-section .inputs-list input[type="checkbox"] + span:before {
+         left: 0px!important;
+}
+.l1-page .form-section .inputs-list li.hs-form-booleancheckbox span .hs-form-required {
+  display: inline;
+    color: #ff4343;
+}
+
+.form-section .hs-form .hs-form-field {
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+.form-section {
+    background: #ebebeb;
+      padding: 70px 0;
+}
+.form-section .hs-form-booleancheckbox label {
+    display: block;
+}
+.form-section h2{
+       color: #66696D;
+    font-family: 'EffraRegular'!important;
+    font-size: 32px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+      position: relative;
+    text-align: center;
+}
+.form-section h2:before {
+    content: '';
+    width: 200px;
+    border-bottom: 1px solid #66696d;
+    position: absolute;
+    top: 50%;
+    margin-left: -236px;
+}
+.form-section h2:after {
+    content: '';
+    width: 200px;
+    border-bottom: 1px solid #66696d;
+    position: absolute;
+    top: 50%;
+    margin-left: 30px;
+}
+.form-section p{
+     font-size: 16px;
+    padding-bottom: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #66696D;
+}
+.form-section form {
+     padding: 0px 20px;
+    width: 76%;
+    margin: 0 auto;
+}
+.form-section .hs-form-required {
+  display:none;
+}
+.form-section .hs-input {
+  font-size: 14px;
+     margin-bottom: 10px!important;
+      padding: 12px 10px!important;
+    width: 100%!important;
+    background: #ededed!important;
+    border: 1px solid #d4d4d4!important;
+    border-radius: 3px!important;
+    letter-spacing: 1px!important;
+    font-weight: normal!important;
+    color: #66696D!important;
+  -webkit-appearance: none;
+
+}
+.form-section form fieldset.form-columns-1 .hs-input {
+    width:100%;
+}
+.form-section button, select {
+    text-transform: uppercase;
+}
+.form-section .form-title {
+  display:none; 
+}
+/* Placeholder Text (styles the placeholder attribute text) */
+::-webkit-input-placeholder { 
+  color: #333;
+  text-transform: uppercase;
+}
+:-moz-placeholder { color: #333;
+  text-transform: uppercase;}
+::-moz-placeholder {  color: #333;
+  text-transform: uppercase;}
+:-ms-input-placeholder {  color: #333;
+  text-transform: uppercase;}
+
+.form-section fieldset.form-columns-2  {
+  text-align: center;
+   max-width: 100% !important;
+}
+.form-section fieldset.form-columns-1  {
+  text-align: center;
+   max-width: 100% !important;
+}
+.form-section select {
+  text-transform: uppercase;
+}
+.form-section .hs-error-msgs {
+    list-style: none;
+    color: #ff0000;
+}
+.form-section .legal-consent-container {
+    max-width: 990px;
+    margin: 0 auto;
+    text-align: left;
+}
+.form-section .inputs-list {
+  list-style:none;
+}
+.form-section .hs-richtext p{
+      text-align: left;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #66696D;
+}
+.form-section .hs-richtext p a {color: #009ca6;}
+.form-section .actions {
+     background: #099ca6;
+    color: #fff;
+    text-align: center;
+    border: 0;margin: 0px auto;
+display: table;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;   
+    border-radius: 3px !important;
+  -webkit-transition-property: color;
+transition-property: color;
+-webkit-transition-duration: 0.7s;
+transition-duration: 0.7s;
+ -webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+-webkit-transition: all 400ms ease;
+-moz-transition: all 400ms ease;
+-o-transition: all 400ms ease;
+-ms-transition: all 400ms ease;
+transition: all 400ms ease;  
+}
+.form-section .actions .hs-button{background: transparent;
+  border: none;padding: 15px 40px !important;color: #fff; text-transform: uppercase;}
+.form-section .actions:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.2);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.form-section .actions:hover::before,
+.form-section .actions:focus::before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.form-section .actions {
+    text-align: center;
+      margin-top: 30px;
+}
+.form-section .input textarea {
+ height: 100px; 
+}
+
+.form-section .hs-form-booleancheckbox .hs-input {
+    float: left;
+    width: 2% !important;
+}
+ul.inputs-list .hs-form-booleancheckbox {
+  margin-top: 10px;width: 100%;
+}
+.form-section .hs-form-booleancheckbox label strong{
+      font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #66696d;
+  text-decoration: underline;
+}
+.legal-consent-container .hs-richtext{
+      color: #66696D;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 100;
+  
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #66696D;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #66696D;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #66696D;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #66696D;
+}
+
+
+
+
+.l1-page .form-section .inputs-list input[type="checkbox"]:checked + span:after {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: -25px;
+    top: 0;
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    width: 20px;
+    line-height: 20px;
+}
+.l1-page .form-section .inputs-list input[type="checkbox"] + span:before {
+    position: absolute;
+    left: -25px;
+    top: 0;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 1px solid #dadada;
+    color: #fafafa;
+    background: #fafafa;
+}
+.l1-page .form-section .inputs-list input[type="checkbox"]:checked + span:before {
+    background: #009CA5;
+    color: #373737;
+    border-color: #009CA5;
+}
+.l1-page .form-section .inputs-list input[type="checkbox"] {
+    position: absolute;
+    left: 0;
+    margin: 0;
+    top: 0;
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.l1-page .form-section ul.inputs-list {
+  position:relative;
+}
+.l1-page .form-section .inputs-list li.hs-form-booleancheckbox span p {
+    margin-left: 40px;
+}
+.l1-page .form-section .inputs-list .hs-form-booleancheckbox {
+  padding: 0px !important;
+}
+.legal-consent-container .hs-form-booleancheckbox-display>span {
+    margin-left: 0px!important;
+}
+
+@media(max-width:767px){
+  .form-section p{font-size: 12px;}
+  .l1-page .form-section .inputs-list li.hs-form-booleancheckbox span p {
+ margin-left: 30px;}
+  .form-section h2 {margin-top: 0;}
+  .form-section h2::before, .form-section h2::after {display:none;}
+  .form-section{padding: 40px 0;} 
+.form-section form {padding: 0px 0px;}
+  .form-section p{padding-bottom: 20px;} 
+  .login-popup .modal-dialog .hs-button{padding: 18px 20px;font-size: 15px;}  
+}
+@media (min-width:300px) and (max-width:480px) {
+  .below-line {
+  text-align: left !important;
+    width: 100%;
+  }
+  .form-section form {
+    width: 100%;
+}
+.form-section h2 {
+    font-size: 26px;
+    padding-bottom: 0px;
+}
+}
+
+@media (min-width:481px) and (max-width:854px) {
+    .below-line {
+text-align: left !important;
+    width: 100%;
+  }
+  .form-section form {
+    width: 100%;
+.form-section h2 {
+    font-size: 28px;
+    padding-bottom: 0px;
+}
+}
+@media(min-width:768px) and (max-width:991px) {
+  .form-section{padding: 40px 0;} 
+}
